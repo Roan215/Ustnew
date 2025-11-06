@@ -1,0 +1,37 @@
+Java Inheritance:
+
+Create a Shape class with a method getArea(). Create a Circle class that inherits from Shape and implements getArea().
+
+Create a Person class with a method introduce(). Inherit Student and Teacher classes from Person, overriding introduce() for each.
+
+Create a Animal class with a method makeSound(). Extend it to Dog and Cat, overriding makeSound() to print different sounds.
+
+
+
+Java Interface and Abstraction:
+
+Create an interface Drawable with a method draw(). Implement it in Circle and Rectangle classes.
+
+Create an interface Playable with a method play(). Implement it in Piano and Guitar classes.
+
+Create an interface Shape with methods getArea() and getPerimeter(). Implement it in Square and Rectangle classes.
+
+
+
+Java Encapsulation using Beans:
+
+Create an Employee class with private fields name, age, and salary. Use getter and setter methods to access these fields.
+
+Create a Car class with private fields make, model, and year. Provide getter and setter methods for these fields.
+
+Create a Book class with private fields title, author, and price. Use getter and setter methods to modify and access the values.
+
+
+
+Java Collections (List and Set):
+
+Create a List of student names and a Set of student IDs. Add some names and IDs, then print them.
+
+Create a List of integers and find the largest number in the list using Collections methods.
+
+Create a Set to store unique country names. Add some country names and try to add duplicates. Print the set.
