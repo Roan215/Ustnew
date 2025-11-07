@@ -1,19 +1,26 @@
 package Tasks;
 
 public abstract class Mammal implements Animal{
-	String name;
-	
-	public Mammal() {
+	Mammal(){
 		
 	}
-	
-	public Mammal(String name) {
-		this.name = name;
+	String name;
+	Mammal(String name){
+		this.name=name;
 	}
-	
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println(name+" is Eating");
+		
+	}
+
+	@Override
 	public void sleep() {
-		System.out.println(name + " is sleeping");
+		// TODO Auto-generated method stub
+		System.out.println(name+" is Sleeping");
 	}
-	
-	abstract public void makesSound();
+	abstract void makeSound();
+
 }

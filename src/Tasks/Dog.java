@@ -1,31 +1,21 @@
 package Tasks;
 
-public class Dog extends Mammal {
+public class Dog extends Mammal{
 
 	public Dog(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Dog d = new Dog("rock");
-		d.sleep();
-		d.eat();
-		d.makesSound();
-
-	}
-
 	@Override
-	public void eat() {
+	void makeSound() {
 		// TODO Auto-generated method stub
-		System.out.println("Dog is eating");
+		System.out.println("Dog barks");
+		
 	}
-
-	@Override
-	public void makesSound() {
-		// TODO Auto-generated method stub
-		System.out.println("Dog is barking");
+	public void eat()
+	{
+		System.out.println("Dog is Eating");
 	}
 
 }
